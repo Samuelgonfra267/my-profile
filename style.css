@@ -1,0 +1,142 @@
+body {
+
+            font-family: 'Nunito', sans-serif; /* A clean and modern sans-serif font */
+            color: #606060; /* A soft, dark-gray color for text */
+            background-color: #d3d3d3; /* A light gray background for a subtle look */
+            line-height: 1.6; /* Provides a little more space between lines of text */
+        }
+        .container {
+            max-width: 80%;
+            margin: 50px auto;
+            background: #fff;
+            padding: 40px;
+            text-align: center;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow for depth */
+            border-radius: 10px; /* Rounds the corners of the container */
+            padding: 40px; /* Adds more space inside the container */
+            max-width: 800px;
+        }
+        img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            margin: 20px 0;
+        }
+        h1{
+        font-weight: 800; /* A lighter font weight for headings */
+        font-family: 'roboto', sans-serif;
+        color: #add8e6; /* A darker color for contrast */
+        margin-bottom: .5em;
+        margin-bottom: 20px;
+        }
+        p{
+        font-size: 1.1em; /* Slightly larger font size for readability */
+        margin-bottom: 1.5em; 
+
+        }
+        ul.social-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul.social-list li {
+            display: inline;
+            margin: 0 10px;
+        }
+        a.social-link {
+            text-decoration: none;
+            color: #333;
+        }
+        a.social-link:hover {
+            color: #555;
+
+        }
+        .card-white {
+        background: #fff;
+        border-radius: 8px;
+        padding: 20px;
+        margin-bottom: 30px; /* Adds space between the cards */
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    }
+
+        .btn-blue {
+        display: block; /* Makes the button take the full width of the card */
+        width: auto;
+        padding: 10px 20px;
+        margin: 10px auto 20px; /* Centers the button and adds space */
+        font-size: 16px;
+        color: #fff;
+        background-color: #007bff;
+        border: none;
+        border-radius: 4px;
+        text-align: center;
+        text-decoration: none;
+        transition: background-color 0.2s ease-in-out;
+    }
+
+        .btn-blue:hover {
+        background-color: #0056b3;
+    }
+        .card-white {
+        background-color: #ffffff;
+        border-radius: 10px;
+        padding: 20px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        margin: 20px 0;
+    }
+
+        .social-list {
+            color: rgb(230,230,);
+            list-style: none;
+            padding: 0;
+            display: inline-flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+
+        .social-list li {
+            margin: 0 10px;
+        }
+
+        .social-link {
+            font-size: 24px;
+            color: #555;
+            transition: color 0.3s ease;
+        }
+
+        .social-link:hover, .social-link:focus {
+            color: #007bff;
+        }
+
+        /* Custom styling for icons */
+        .fab {
+            margin-right: 8px;
+}
+
+                .img-circle {
+            border-radius: 50%; /* Makes the image round */
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 15px;
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn {
+            background-color: #0056b3; /* Darkens the button on hover */
+        }
+
+        .list-inline {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .list-inline > li {
+            display: inline-block; /* Display list items in a row */
+            padding: 0px 10px; /* Spacing between list items */
+        }
